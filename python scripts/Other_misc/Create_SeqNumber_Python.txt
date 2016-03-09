@@ -1,0 +1,26 @@
+
+1.Create a new short integer field. 
+2.Set the Parser to Python. 
+3.Select Show Codeblock. 
+4.Paste the following into the Pre-Logic Script Code: 
+
+
+rec=0 
+def autoIncrement(): 
+ global rec 
+ pStart = 1  
+ pInterval = 1 
+ if (rec == 0):  
+  rec = pStart  
+ else:  
+  rec += pInterval  
+ return rec
+
+
+5.Paste the following code in the smaller box below the Pre-Logic Script Code: 
+
+
+autoIncrement()
+
+
+6.Click OK. 
