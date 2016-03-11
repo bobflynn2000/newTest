@@ -3,3 +3,4 @@ R scripts/
 test.txt
 
 replace line 2
+line 3 included
